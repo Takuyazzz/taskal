@@ -40,10 +40,13 @@ addTaskTrigger.addEventListener('click', event => {
 
 // }
 
-// // たくや
-// comunity{
-
-// }
+// // // たくや
+// // comunity{
+//   const baseUrl = 'https://www.facebook.com/sharer/sharer.php?';
+//   const url = ['u', location.href];
+//   const query = new URLSearchParams([url]).toString();
+//   const shareUrl = `${baseUrl}${query}`;
+// // }
 const a = new Date();
 console.log(a);
 
